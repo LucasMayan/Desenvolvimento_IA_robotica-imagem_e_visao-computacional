@@ -1,0 +1,10 @@
+3. Explicação:
+YOLOv3: Utilizamos a rede neural pré-treinada YOLOv3 para detectar pessoas nas imagens capturadas pelas câmeras.
+VideoStream: Captura os fluxos de vídeo das duas câmeras IP.
+Detecção: A função detect_people processa cada frame para identificar pessoas e retornar as coordenadas dos bounding boxes.
+Contagem: A cada frame, incrementamos o total de pessoas entrando ou saindo, e calculamos a ocupação atual dentro do edifício.
+Visualização: Mostramos os vídeos em tempo real com o número total de pessoas dentro do edifício.
+4. Observações:
+Certifique-se de ter os arquivos de configuração do YOLOv3 (yolov3.weights e yolov3.cfg).
+As URLs das câmeras IP devem ser substituídas pelos valores corretos (rtsp://user:password@ip_camera_entrada e rtsp://user:password@ip_camera_saida).
+Isso deve te fornecer um bom ponto de partida para monitorar e controlar o número de pessoas dentro do edifício.
