@@ -28,3 +28,5 @@ WHERE
     For example, if you want to classify images with **precomputed** kernel, where train path is **dataset/train** and test path is **dataset/test** by choosing **100** cluster centers. You have to execute following command:
 
 >python3 BoW.py --train\_path dataset/train --test\_path dataset/test --no\_clusters 100 --kernel precomputed
+>
+# DATASET Não Está presente no github
